@@ -8,5 +8,7 @@ namespace practica_preparatoria.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<practica_preparatoria.Models.Student> Students { get; set; }
     }
 }
